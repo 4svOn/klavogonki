@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hse.cs.se.klavogonki.RaceController">
+   <children>
+      <Label layoutX="261.0" layoutY="23.0" text="КЛАВОГОНКИ" textAlignment="CENTER" AnchorPane.topAnchor="0.0" />
+      <Label layoutX="280.0" layoutY="65.0" text="Игроки" textAlignment="CENTER" AnchorPane.topAnchor="20.0" />
+      <TextArea fx:id="resultArea" editable="false" layoutX="26.0" layoutY="68.0" prefHeight="80.0" prefWidth="380.0" AnchorPane.leftAnchor="0.0" />
+      <Label layoutX="257.0" layoutY="161.0" text="Текст для ввода" textAlignment="CENTER" />
+      <TextArea fx:id="textArea" editable="false" layoutX="30.0" layoutY="187.0" prefHeight="117.0" prefWidth="541.0" wrapText="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <TextField fx:id="textField" editable="false" layoutX="32.0" layoutY="354.0" onKeyTyped="#keyTypedInTextField" prefHeight="25.0" prefWidth="541.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Label layoutX="246.0" layoutY="325.0" text="Вводите текст здесь" />
+      <Label fx:id="timerLabel" alignment="CENTER" ellipsisString="" layoutX="436.0" layoutY="68.0" prefHeight="80.0" prefWidth="155.0" textAlignment="CENTER" AnchorPane.rightAnchor="0.0" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</AnchorPane>
